@@ -13,7 +13,7 @@ def mergesort(array):
     if len(array) <= 1:
         return array
 
-    m = len(array) // 2
+    m = len(array) // 2 # test
     debug_print(m=m)
 
     left = mergesort(array[:m])
